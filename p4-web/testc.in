@@ -1,0 +1,121 @@
+GET /api/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+POST /api/queue/tail/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 58
+
+{
+    "uniqname": "jackgood",
+    "location": "Table 5"
+}
+GET /api/queue/head/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+GET /api/queue/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+POST /api/queue/tail/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 58
+
+{
+    "uniqname": "jackgood",
+    "location": "Table 5"
+}
+POST /api/queue/tail/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 58
+
+{
+    "uniqname": "jackgood",
+    "location": "Table 5"
+}
+POST /api/queue/tail/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 58
+
+{
+    "uniqname": "jackgood",
+    "location": "Table 5"
+}
+GET /api/queue/head/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+GET /api/queue/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+DELETE /api/queue/head/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+GET /api/queue/head/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+GET /api/queue/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+DELETE /api/queue/head HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+GET /api/queue/head HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+GET /api/queu/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+GET /api/queue/head/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+GET /api/queue/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+POST /api/queue/tai/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 58
+
+{
+    "uniqname": "jackgood",
+    "location": "Table 5"
+}
+DELETE /api/queue/head/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+DELETE /api/queue/head/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+DELETE /api/queue/head/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+GET /api/queue/head/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+GET /api/queue/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+DELETE /api/queue/head/ HTTP/1.1
+Host: localhost
+Content-Type: application/json; charset=utf-8
+Content-Length: 0

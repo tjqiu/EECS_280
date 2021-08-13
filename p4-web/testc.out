@@ -1,0 +1,220 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 160
+
+{
+    "queue_head_url": "http://localhost/queue/head/",
+    "queue_list_url": "http://localhost/queue/",
+    "queue_tail_url": "http://localhost/queue/tail/"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json; charset=utf-8
+Content-Length: 77
+
+{
+    "location": "Table 5",
+    "position": 1,
+    "uniqname": "jackgood"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 77
+
+{
+    "location": "Table 5",
+    "position": 1,
+    "uniqname": "jackgood"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 160
+
+{
+    "count": 1,
+    "results": [
+        {
+            "location": "Table 5",
+            "position": 1,
+            "uniqname": "jackgood"
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Content-Type: application/json; charset=utf-8
+Content-Length: 77
+
+{
+    "location": "Table 5",
+    "position": 2,
+    "uniqname": "jackgood"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json; charset=utf-8
+Content-Length: 77
+
+{
+    "location": "Table 5",
+    "position": 3,
+    "uniqname": "jackgood"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json; charset=utf-8
+Content-Length: 77
+
+{
+    "location": "Table 5",
+    "position": 4,
+    "uniqname": "jackgood"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 77
+
+{
+    "location": "Table 5",
+    "position": 1,
+    "uniqname": "jackgood"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 514
+
+{
+    "count": 4,
+    "results": [
+        {
+            "location": "Table 5",
+            "position": 1,
+            "uniqname": "jackgood"
+        },
+        {
+            "location": "Table 5",
+            "position": 2,
+            "uniqname": "jackgood"
+        },
+        {
+            "location": "Table 5",
+            "position": 3,
+            "uniqname": "jackgood"
+        },
+        {
+            "location": "Table 5",
+            "position": 4,
+            "uniqname": "jackgood"
+        }
+    ]
+}
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 77
+
+{
+    "location": "Table 5",
+    "position": 2,
+    "uniqname": "jackgood"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 396
+
+{
+    "count": 3,
+    "results": [
+        {
+            "location": "Table 5",
+            "position": 2,
+            "uniqname": "jackgood"
+        },
+        {
+            "location": "Table 5",
+            "position": 3,
+            "uniqname": "jackgood"
+        },
+        {
+            "location": "Table 5",
+            "position": 4,
+            "uniqname": "jackgood"
+        }
+    ]
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 77
+
+{
+    "location": "Table 5",
+    "position": 2,
+    "uniqname": "jackgood"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 396
+
+{
+    "count": 3,
+    "results": [
+        {
+            "location": "Table 5",
+            "position": 2,
+            "uniqname": "jackgood"
+        },
+        {
+            "location": "Table 5",
+            "position": 3,
+            "uniqname": "jackgood"
+        },
+        {
+            "location": "Table 5",
+            "position": 4,
+            "uniqname": "jackgood"
+        }
+    ]
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 40
+
+{
+    "count": 0,
+    "results": "null"
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+
